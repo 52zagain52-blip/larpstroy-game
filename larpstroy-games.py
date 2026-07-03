@@ -52,7 +52,7 @@ if password_palyer == password:
                 print("you win +", y)
             else:
                 y = y - y
-                print("ты все просрал(")
+                print("ты все просрал")
         else:
             print("1 - игра")
             print("2 - поплнить бесплатно счет (если нет денег)")
