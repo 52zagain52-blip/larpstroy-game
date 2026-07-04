@@ -50,6 +50,9 @@ if password_palyer == password:
             if ZXC == CXZ:
                 y = y + y
                 print("you win +", y)
+        elif x == 6:
+            print("сделанно 13 летним долбаебом за 20 мин")
+            print("этот 13 летний долбаеб - https://github.com/52zagain52-blip")
             else:
                 y = y - y
                 print("ты все просрал")
@@ -59,6 +62,7 @@ if password_palyer == password:
             print("3 - какой счет у пользователя")
             print("4 - профиль")
             print("5 - депнуть все (50/50)")
+            print("6 - авторы")
 else:
     print("неправильный пароль (экстренный конец кода)")
 
