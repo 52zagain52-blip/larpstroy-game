@@ -18,18 +18,15 @@ if password_palyer == password:
                 zyx = int(input("выбери 1, 2 или 3"))
                 xyz = random.choice([1, 2, 3])
                 if xyz == zyx:
-                    global balance
                     y = y + 10
                     print("you win")
-                else:
-                    global balance
+                else:                    
                     y = y - 5
                     print("ты проиграл")
             else:
                 print("у вас нет денег")
         elif x == 2:
             if y == 0:
-                global balance
                 y = y + 5
                 print("вы успешно поплнили баланс на 5р")
             else:
