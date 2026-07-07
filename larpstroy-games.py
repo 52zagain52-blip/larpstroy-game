@@ -1,4 +1,5 @@
 import random
+from prettytable import PrettyTable
 
 BB = input("логин:")
 password_palyer = input("пароль?")
@@ -53,6 +54,23 @@ if password_palyer == password:
         elif x == 6:
             print("сделанно 13 летним долбаебом за 20 мин")
             print("этот 13 летний долбаеб - https://github.com/52zagain52-blip")
+        elif x == 8:
+             def show_passport():
+                table = PrettyTable()
+                table.field_names = ["Поле", "Данные"]
+                table.add_row(["Полное имя", "Друность Загаиность Батчин"])
+                table.add_row(["Дата рождения", "02.02.1488"])
+                table.add_row(["Место рождения", "г. Мурино, Мурманская обл."])
+                table.add_row(["Место жительства", "ул. Молочный пер. д. 13, кв. 7"])
+                table.add_row(["Работа", "1С-программист"])
+                table.add_row(["Зарплата", "солидная должность, мелкая зарплата"])
+                table.add_row(["Семейное положение", "холост"])
+                table.add_row(["Дети", "нет (но есть Чость)"])
+                table.add_row(["Группа крови", "IV (AB)"])
+                table.add_row(["ИНН", "1488020002"])
+                print(table)
+   
+            
         elif x == 9:
             break 
         else:
