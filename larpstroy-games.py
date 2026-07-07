@@ -60,6 +60,12 @@ if password_palyer == password:
             print("4 - профиль")
             print("5 - депнуть все (50/50)")
             print("6 - авторы")
+            print("7 - сюжет(скоро)")
+            print("8 - паспорт (скоро")
+            print("9 - выход")
+elif x == 9:
+    break
+        
 else:
     print("неправильный пароль (экстренный конец кода)")
 
