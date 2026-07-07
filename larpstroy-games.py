@@ -53,6 +53,8 @@ if password_palyer == password:
         elif x == 6:
             print("сделанно 13 летним долбаебом за 20 мин")
             print("этот 13 летний долбаеб - https://github.com/52zagain52-blip")
+        elif x == 9:
+            break 
         else:
             print("1 - игра")
             print("2 - поплнить бесплатно счет (если нет денег)")
@@ -63,8 +65,6 @@ if password_palyer == password:
             print("7 - сюжет(скоро)")
             print("8 - паспорт (скоро")
             print("9 - выход")
-        elif x == 9:
-            break
         
 else:
     print("неправильный пароль (экстренный конец кода)")
